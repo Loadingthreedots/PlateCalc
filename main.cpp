@@ -14,51 +14,50 @@ int main()
 	// Get input
 	string input;
 	getline(cin, input);
-	double weight = stoi(input) / 2;
-
+	float weight = stoi(input) / 2;
 	
 	cout << "Plate amounts (kg), 20: ";
 
 	// If weight can be divided by 20
 	if (weight / 20 >= 1)
 	{
-		double twenties = floor(weight / 20);
-		weight = weight - twenties;
-		cout << twenties;
+		short int twenties = floor(weight / 20);
+		weight = weight - (twenties * 20);
+		cout << twenties << "\n" << weight;
 		// Reduce weight once sorted to go onto the next stage
 	}
+	
 	if (weight / 15 > 1)
 	{
-		double fifteens = floor(weight / 15);
-		weight = weight - fifteens;
+		short int fifteens = floor(weight / 15);
+		weight = weight - (fifteens * 15);
 		cout << " 15: " << fifteens;
 	}
 	if (weight / 10 > 1)
 	{
-		double tens = floor(weight / 10);
-		weight = weight - tens;
+		short int tens = floor(weight / 10);
+		weight = weight - (tens * 10);
 		cout << " 10: " << tens;
 	}
 	if (weight / 5 > 1)
 	{
-		double fives = floor(weight / 5);
-		weight = weight - fives;
+		short int fives = floor(weight / 5);
+		weight = weight - (fives * 5);
 		cout << " 5: " << fives;
 	}
 	if (weight / 2.5 > 1)
 	{
-		double twohalf = floor(weight / 2.5);
-		weight = weight - twohalf;
+		short int twohalf = floor(weight / 2.5);
+		weight = weight - (twohalf * 2.5);
 		cout << " 2.5: " << twohalf;
 	}
 	if (weight / 1.25 > 1)
 	{
-		double onequart = floor(weight / 1.25);
-		weight = weight - onequart;
+		short int onequart = floor(weight / 1.25);
+		weight = weight - (onequart * 1.25);
 		cout << " 1.25: " << onequart;
 	}
 	cout << endl;
-	cout << weight << endl;
 	string wait;
 	getline(cin, wait);
 

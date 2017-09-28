@@ -1,3 +1,10 @@
 ﻿  main.cpp
+f:\code\c++\projects\platecalc\platecalc\main.cpp(17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+f:\code\c++\projects\platecalc\platecalc\main.cpp(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\code\c++\projects\platecalc\platecalc\main.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\code\c++\projects\platecalc\platecalc\main.cpp(39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\code\c++\projects\platecalc\platecalc\main.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\code\c++\projects\platecalc\platecalc\main.cpp(51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\code\c++\projects\platecalc\platecalc\main.cpp(57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   PlateCalc.vcxproj -> F:\Code\C++\Projects\PlateCalc\Debug\PlateCalc.exe
   PlateCalc.vcxproj -> F:\Code\C++\Projects\PlateCalc\Debug\PlateCalc.pdb (Partial PDB)
